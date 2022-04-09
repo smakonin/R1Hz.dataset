@@ -9,13 +9,14 @@
 #
 
 import os, sys, mysql.connector
-from datetime import datetime
+from datetime import datetime, timedelta
 
 input_filename = './raw-modbus/SUB_%s.csv'
-start_dt = '2017-09-13'
-end_dt = '2019-10-09'
+start_dt = '2017-09-14' #13'
+end_dt = '2019-10-10'#'2019-10-09'
 submeter_count = 21
 meter_count = 8
+day = timedelta(days=1)
 
 def int32(lsw, msw):
     return msw * 0x10000 + lsw
@@ -67,16 +68,16 @@ while date != end_dt:
                     break
 
                 cur.execute('UPDATE current SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', (round(line[34 + offset] * 0.1, 1), raw_ts,))
-                cur.execute('UPDATE displacement_pf SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', round(line[31 + offset] * 0.01, 2), raw_ts,))
-                cur.execute('UPDATE apparent_pf SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', round(line[28 + offset] * 0.01, 2), raw_ts,))
-                cur.execute('UPDATE real_power SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', line[7 + offset], raw_ts,))
-                cur.execute('UPDATE reactive_power SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', line[16 + offset], raw_ts,))
-                cur.execute('UPDATE apparent_power SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', line[25 + offset], raw_ts,))
-                cur.execute('UPDATE real_energy SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', int32(line[1 + offset], line[2 + offset]), raw_ts,))
-                cur.execute('UPDATE reactive_energy SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', int32(line[10 + offset], line[11 + offset]), raw_ts,))
-                cur.execute('UPDATE apparent_energy SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', int32(line[19 + offset], line[20 + offset]), raw_ts,))
+                cur.execute('UPDATE displacement_pf SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', (round(line[31 + offset] * 0.01, 2), raw_ts,))
+                cur.execute('UPDATE apparent_pf SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', (round(line[28 + offset] * 0.01, 2), raw_ts,))
+                cur.execute('UPDATE real_power SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', (line[7 + offset], raw_ts,))
+                cur.execute('UPDATE reactive_power SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', (line[16 + offset], raw_ts,))
+                cur.execute('UPDATE apparent_power SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', (line[25 + offset], raw_ts,))
+                cur.execute('UPDATE real_energy SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', (int32(line[1 + offset], line[2 + offset]), raw_ts,))
+                cur.execute('UPDATE reactive_energy SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', (int32(line[10 + offset], line[11 + offset]), raw_ts,))
+                cur.execute('UPDATE apparent_energy SET meter'+str(submeter_id)+' = %s WHERE unix_ts = %s;', (int32(line[19 + offset], line[20 + offset]), raw_ts,))
         con.commit()
-    date = str(dt + timedelta(days=1))[:10]
+    date = str(dt + day)[:10]
 
 cur.close()
 con.close()
