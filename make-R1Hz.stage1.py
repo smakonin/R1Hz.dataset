@@ -36,7 +36,7 @@ cur.execute('CREATE TABLE apparent_energy ( unix_ts integer PRIMARY KEY NOT NULL
 con.commit()
 
 cur.execute("""
-    INSERT INTO appliances (appliance_id, name, meter_l1, meter_l2, is_mains, has_mixed_loads, notes) VALUES
+    INSERT INTO R1Hz.appliances (appliance_id, name, meter_l1, meter_l2, is_mains, has_mixed_loads, notes) VALUES
     ('MAIN', 'House Sub-Panel',          1,    2, 'Y', 'Y', ''),
     ('GEN1', 'Lights & Plugs',           3, NULL, 'N', 'Y', 'general label'),
     ('DRYR', 'Clothes Dryer',            4,    5, 'N', 'N', ''),
