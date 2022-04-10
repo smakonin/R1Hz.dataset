@@ -24,7 +24,7 @@ def insert_meta(pwd):
         return
 
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO meta (unix_ts, local_dt, local_tm, imputed) VALUES (%s, %s, %s, %s);', all_ts_meta)
+    cur.executemany('INSERT IGNORE INTO R1Hz.meta (unix_ts, local_dt, local_tm, imputed) VALUES (%s, %s, %s, %s);', all_ts_meta)
     con.commit()
     cur.close()
     con.close()
@@ -36,7 +36,7 @@ def insert_current(pwd):
         return
 
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO current (unix_ts) VALUES (%s);', all_ts)
+    cur.executemany('INSERT IGNORE INTO R1Hz.current (unix_ts) VALUES (%s);', all_ts)
     con.commit()
     cur.close()
     con.close()
@@ -48,7 +48,7 @@ def insert_displacement_pf(pwd):
         return
     
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO displacement_pf (unix_ts) VALUES (%s);', all_ts)
+    cur.executemany('INSERT IGNORE INTO R1Hz.displacement_pf (unix_ts) VALUES (%s);', all_ts)
     con.commit()
     cur.close()
     con.close()
@@ -60,7 +60,7 @@ def insert_apparent_pf(pwd):
         return
     
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO apparent_pf (unix_ts) VALUES (%s);', all_ts)
+    cur.executemany('INSERT IGNORE INTO R1Hz.apparent_pf (unix_ts) VALUES (%s);', all_ts)
     con.commit()
     cur.close()
     con.close()
@@ -72,7 +72,7 @@ def insert_real_power(pwd):
         return
     
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO real_power (unix_ts) VALUES (%s);', all_ts)
+    cur.executemany('INSERT IGNORE INTO R1Hz.real_power (unix_ts) VALUES (%s);', all_ts)
     con.commit()
     cur.close()
     con.close()
@@ -84,7 +84,7 @@ def insert_reactive_power(pwd):
         return
     
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO reactive_power (unix_ts) VALUES (%s);', all_ts)
+    cur.executemany('INSERT IGNORE INTO R1Hz.reactive_power (unix_ts) VALUES (%s);', all_ts)
     con.commit()
     cur.close()
     con.close()
@@ -96,7 +96,7 @@ def insert_apparent_power(pwd):
         return
 
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO apparent_power (unix_ts) VALUES (%s);', all_ts)
+    cur.executemany('INSERT IGNORE INTO R1Hz.apparent_power (unix_ts) VALUES (%s);', all_ts)
     con.commit()
     cur.close()
     con.close()
@@ -108,7 +108,7 @@ def insert_real_energy(pwd):
         return
 
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO real_energy (unix_ts) VALUES (%s);', all_ts)
+    cur.executemany('INSERT IGNORE INTO R1Hz.real_energy (unix_ts) VALUES (%s);', all_ts)
     con.commit()
     cur.close()
     con.close()
@@ -120,7 +120,7 @@ def insert_reactive_energy(pwd):
         return
     
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO reactive_energy (unix_ts) VALUES (%s);', all_ts)
+    cur.executemany('INSERT IGNORE INTO R1Hz.reactive_energy (unix_ts) VALUES (%s);', all_ts)
     con.commit()
     cur.close()
     con.close()
@@ -132,7 +132,7 @@ def insert_apparent_energy(pwd):
         return
 
     cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO apparent_energy (unix_ts) VALUES (%s);', all_ts)
+    cur.executemany('INSERT IGNORE INTO R1Hz.apparent_energy (unix_ts) VALUES (%s);', all_ts)
     con.commit()
     cur.close()
     con.close()
