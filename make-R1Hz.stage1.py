@@ -11,19 +11,20 @@
 import os, sys, mysql.connector
 from datetime import datetime
 
-con = mysql.connector.connect(host='localhost', user='smakonin', passwd=sys.argv[1])
+con = mysql.connector.connect(host='localhost', user='root', passwd=sys.argv[1])
 
 if not con.is_connected():
     print('ERROR: unable to connect to MySQL!')
     exit(1)
 cur = con.cursor()
 
-cur.execute('CREATE DATABASE R1Hz /*!40100 DEFAULT CHARACTER SET ascii COLLATE ascii_bin */;')
-con.commit()
+#cur.execute('CREATE DATABASE R1Hz /*!40100 DEFAULT CHARACTER SET ascii COLLATE ascii_bin */;')
+#con.commit()
 
 cur.execute('USE R1Hz;')
 cur.execute('CREATE TABLE appliances ( appliance_id char(4) PRIMARY KEY NOT NULL, name varchar(64), meter_l1 integer, meter_l2 integer, is_mains char(1), has_mixed_loads char(1), notes text );')
 cur.execute('CREATE TABLE meta ( unix_ts integer PRIMARY KEY NOT NULL, local_dt char(10) NOT NULL, local_tm char(8) NOT NULL, imputed char(1) NOT NULL, voltage_l1 real, voltage_l2 real, freq real );')
+cur.execute('ALTER TABLE meta ADD INDEX LOCAL (local_dt ASC, local_tm ASC) VISIBLE;')
 cur.execute('CREATE TABLE current ( unix_ts integer PRIMARY KEY NOT NULL, meter1 real, meter2 real, meter3 real, meter4 real, meter5 real, meter6 real, meter7 real, meter8 real, meter9 real, meter10 real, meter11 real, meter12 real, meter13 real, meter14 real, meter15 real, meter16 real, meter17 real, meter18 real, meter19 real, meter20 real, meter21 real );')
 cur.execute('CREATE TABLE displacement_pf ( unix_ts integer PRIMARY KEY NOT NULL, meter1 real, meter2 real, meter3 real, meter4 real, meter5 real, meter6 real, meter7 real, meter8 real, meter9 real, meter10 real, meter11 real, meter12 real, meter13 real, meter14 real, meter15 real, meter16 real, meter17 real, meter18 real, meter19 real, meter20 real, meter21 real );')
 cur.execute('CREATE TABLE apparent_pf ( unix_ts integer PRIMARY KEY NOT NULL, meter1 real, meter2 real, meter3 real, meter4 real, meter5 real, meter6 real, meter7 real, meter8 real, meter9 real, meter10 real, meter11 real, meter12 real, meter13 real, meter14 real, meter15 real, meter16 real, meter17 real, meter18 real, meter19 real, meter20 real, meter21 real );')
@@ -61,4 +62,3 @@ con.commit()
 
 cur.close()
 con.close()
-

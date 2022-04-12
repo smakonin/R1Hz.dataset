@@ -12,8 +12,8 @@ import os, sys, mysql.connector
 from datetime import datetime, timedelta
 
 input_filename = './raw-modbus/SUB_%s.csv'
-start_dt = '2017-09-22' #13'    ####### NEED TO RERUN 2017-09-21
-end_dt = '2019-10-10'#'2019-10-09'
+start_dt = '2017-09-13'    ####### NEED TO RERUN 2017-09-21
+end_dt = '2019-10-10' #'2019-10-09'+1 for proper loop end
 submeter_count = 21
 meter_count = 8
 day = timedelta(days=1)
@@ -22,7 +22,7 @@ set_clause = 'meter1=%s,meter2=%s,meter3=%s,meter4=%s,meter5=%s,meter6=%s,meter7
 def int32(lsw, msw):
     return msw * 0x10000 + lsw
 
-con = mysql.connector.connect(host='localhost', user='smakonin', passwd=sys.argv[1], database='R1Hz')
+con = mysql.connector.connect(host='localhost', user='root', passwd=sys.argv[1], database='R1Hz')
 
 if not con.is_connected():
     print('ERROR: unable to connect to MySQL!')
@@ -88,7 +88,7 @@ while date != end_dt:
                 real_energy[submeter_id] = int32(line[1 + offset], line[2 + offset])
                 reactive_energy[submeter_id] = int32(line[10 + offset], line[11 + offset])
                 apparent_energy[submeter_id] = int32(line[19 + offset], line[20 + offset])
-        
+
         cur.execute('UPDATE R1Hz.meta SET imputed = %s, voltage_l1 = %s, voltage_l2 = %s, freq = %s WHERE unix_ts = %s;', ('N', voltage_l1, voltage_l2, freq, raw_ts,))
         cur.execute('UPDATE R1Hz.current SET ' + set_clause + ' WHERE unix_ts = %s;', tuple(current) + (raw_ts,))
         cur.execute('UPDATE R1Hz.displacement_pf SET ' + set_clause + ' WHERE unix_ts = %s;', tuple(displacement_pf) + (raw_ts,))
@@ -104,4 +104,3 @@ while date != end_dt:
 
 cur.close()
 con.close()
-
