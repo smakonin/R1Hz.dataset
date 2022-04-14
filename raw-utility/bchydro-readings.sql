@@ -1,3 +1,11 @@
+CREATE TABLE utility (
+    reading_dt datetime NOT NULL,
+    dst_switch char(1) CHARACTER SET ascii COLLATE ascii_bin NOT NULL DEFAULT 'N',
+    consumption double DEFAULT NULL,
+    PRIMARY KEY (reading_dt,dst_switch)
+) ENGINE=InnoDB DEFAULT CHARSET=ascii;
+
+
 INSERT IGNORE INTO R1Hz.utility (reading_dt, consumption)
 VALUES
     ('2016-06-09 00:00:00', 0.12),
