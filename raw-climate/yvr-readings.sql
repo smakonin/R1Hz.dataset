@@ -1,3 +1,38 @@
+CREATE TABLE climate (
+    station_longitude double DEFAULT NULL,
+    station_latitude double DEFAULT NULL,
+    station_name text CHARACTER SET ascii COLLATE ascii_bin,
+    climate_id int DEFAULT NULL,
+    reading_dt datetime NOT NULL,
+    reading_yr int DEFAULT NULL,
+    reading_mo int DEFAULT NULL,
+    reading_day int DEFAULT NULL,
+    reading_tm char(5) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    temp double DEFAULT NULL,
+    temp_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    dew_point double DEFAULT NULL,
+    dew_point_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    rel_hum int DEFAULT NULL,
+    rel_hum_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    precip_amt int DEFAULT NULL,
+    precip_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    wind_dir int DEFAULT NULL,
+    wind_dir_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    wind_spd int DEFAULT NULL,
+    wind_spd_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    visibility double DEFAULT NULL,
+    visibility_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    stn_press double DEFAULT NULL,
+    stn_press_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    hmdx double DEFAULT NULL,
+    hmdx_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    wind_chill double DEFAULT NULL,
+    wind_chill_flg char(1) CHARACTER SET ascii COLLATE ascii_bin DEFAULT NULL,
+    weather text CHARACTER SET ascii COLLATE ascii_bin,
+    PRIMARY KEY (reading_dt)
+) ENGINE=InnoDB DEFAULT CHARSET=ascii;
+
+
 INSERT IGNORE INTO R1Hz.climate (station_longitude,station_latitude,station_name,climate_id,reading_dt,reading_yr,reading_mo,reading_day,reading_tm,temp,temp_flg,dew_point,dew_point_flg,rel_hum,rel_hum_flg,precip_amt,precip_flg,wind_dir,wind_dir_flg,wind_spd,wind_spd_flg,visibility,visibility_flg,stn_press,stn_press_flg,hmdx,hmdx_flg,wind_chill,wind_chill_flg,weather)
 VALUES
     (-123.18,49.19,'VANCOUVER INTL A',1108395,'2017-09-01 00:00',20.7,09,01,'00:00',16.4,NULL,12.8,NULL,79,NULL,NULL,NULL,12,NULL,7,NULL,48.3,NULL,101.99,NULL,NULL,NULL,NULL,NULL,'NA'),
