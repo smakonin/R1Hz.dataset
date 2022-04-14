@@ -4,7 +4,7 @@ Residential 1Hz Dataset (R1Hz)
 Copyright (C) 2017-2022 Stephen Makonin.
 
 
-Welcome to using the R1Hz (pronounced rise) dataset.
+Welcome to using the R1Hz (pronounced |rīz|) dataset.
 
 Need help? Please read and cite: http://doi.org/
 
