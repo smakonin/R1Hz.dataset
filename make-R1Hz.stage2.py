@@ -2,181 +2,108 @@
 #
 # Residential 1Hz Dataset (R1Hz)
 # =======================================
-# STAGE 2: Add timestamp dummy rows
+# STAGE 2: Convert raw MODBUS into tables
 # FILE: make-R1Hz.stage2.py
 # ---------------------------------------
 # Copyright (C) 2017-2022 Stephen Makonin
 #
 
-import os, sys, threading, mysql.connector
-from datetime import datetime
+import os, sys, mysql.connector
+from datetime import datetime, timedelta
 
-start_ts = 1505286000
-end_ts = 1570690799
-all_ts_meta = []
-all_ts = []
-params = (sys.argv[1],)
+pwd = sys.argv[1]
+input_filename = './raw-modbus/SUB_%s.csv'
+start_dt = '2018-06-09' #'2017-09-13'
+end_dt = '2018-06-10' #'2019-10-10' #'2019-10-09'+1 for proper loop end
+submeter_count = 21
+meter_count = 8
+day = timedelta(days=1)
+ins_set_clause = 'unix_ts,meter1,meter2,meter3,meter4,meter5,meter6,meter7,meter8,meter9,meter10,meter11,meter12,meter13,meter14,meter15,meter16,meter17,meter18,meter19,meter20,meter21'
 
-def insert_meta(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
+def int32(lsw, msw):
+    return (msw << 16) + lsw
 
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.meta (unix_ts, local_dt, local_tm, imputed) VALUES (%s, %s, %s, \'?\');', all_ts_meta)
-    con.commit()
-    cur.close()
-    con.close()
+con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
 
-def insert_current(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
+if not con.is_connected():
+    print('ERROR: unable to connect to MySQL!')
+    exit(1)
+cur = con.cursor()
 
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.current (unix_ts) VALUES (%s);', all_ts)
-    con.commit()
-    cur.close()
-    con.close()
+date = start_dt
+while date != end_dt:
+    print('Processing raw data from', date, '...')
+    dt = datetime.strptime(date, '%Y-%m-%d')
+    ts = int(dt.timestamp())
 
-def insert_displacement_pf(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
+    raw_fp = open(input_filename % (date), 'r')
+    raw_lines = list(raw_fp)
+    raw_fp.close()
+    raw_data = []
+    for l in raw_lines:
+        l = l.strip()
+        l = l.split(',')
+        for i in range(len(l)):
+            if i != 1:
+                l[i] = int(l[i])
+        raw_data.append(l)
 
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.displacement_pf (unix_ts) VALUES (%s);', all_ts)
-    con.commit()
-    cur.close()
-    con.close()
+    offset = 2
+    for subs_i in range(0, len(raw_data), meter_count):
+        raw_ts = raw_data[subs_i][0]
+        voltage_l1 = round(raw_data[subs_i][37 + offset] * 0.1, 1)
+        voltage_l2 = round(raw_data[subs_i][38 + offset] * 0.1, 1)
+        freq = round(raw_data[subs_i][0 + offset] * 0.1, 1)
+        current = [0] * submeter_count
+        displacement_pf = [0] * submeter_count
+        apparent_pf = [0] * submeter_count
+        real_power = [0] * submeter_count
+        reactive_power = [0] * submeter_count
+        apparent_power = [0] * submeter_count
+        real_energy = [0] * submeter_count
+        reactive_energy = [0] * submeter_count
+        apparent_energy = [0] * submeter_count
 
-def insert_apparent_pf(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
+        for i in range(meter_count):
+            line = raw_data[subs_i + i]
 
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.apparent_pf (unix_ts) VALUES (%s);', all_ts)
-    con.commit()
-    cur.close()
-    con.close()
+            if ord(line[1]) != ord('A') + i:
+                print('\t ERROR: meter not equal at line', subs_i + i, ":", line)
+                exit(1)
 
-def insert_real_power(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
+            submeter_id = i * 3
+            offset2 = offset
+            for j in [0, 1, 2]:
+                submeter_id = i * 3 + j
+                offset2 = offset + j
+                offset3 = offset + 2 * j
 
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.real_power (unix_ts) VALUES (%s);', all_ts)
-    con.commit()
-    cur.close()
-    con.close()
+                if submeter_id >= submeter_count:
+                    break
 
-def insert_reactive_power(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
+                current[submeter_id] = round(line[34 + offset2] * 0.1, 1)
+                displacement_pf[submeter_id] = round(line[31 + offset2] * 0.01, 2)
+                apparent_pf[submeter_id] = round(line[28 + offset2] * 0.01, 2)
+                real_power[submeter_id] = line[7 + offset2]
+                reactive_power[submeter_id] = line[16 + offset2]
+                apparent_power[submeter_id] = line[25 + offset2]
+                real_energy[submeter_id] = int32(line[1 + offset3], line[2 + offset3])
+                reactive_energy[submeter_id] = int32(line[10 + offset3], line[11 + offset3])
+                apparent_energy[submeter_id] = int32(line[19 + offset3], line[20 + offset3])
 
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.reactive_power (unix_ts) VALUES (%s);', all_ts)
-    con.commit()
-    cur.close()
-    con.close()
+        cur.execute('UPDATE R1Hz.meta SET imputed = %s, voltage_l1 = %s, voltage_l2 = %s, freq = %s WHERE unix_ts = %s;', ('N', voltage_l1, voltage_l2, freq, raw_ts,))
+        cur.execute('INSERT IGNORE INTO R1Hz.current         (' + ins_set_clause + ') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);', (raw_ts,) + tuple(current))
+        cur.execute('INSERT IGNORE INTO R1Hz.displacement_pf (' + ins_set_clause + ') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);', (raw_ts,) + tuple(displacement_pf))
+        cur.execute('INSERT IGNORE INTO R1Hz.apparent_pf     (' + ins_set_clause + ') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);', (raw_ts,) + tuple(apparent_pf))
+        cur.execute('INSERT IGNORE INTO R1Hz.real_power      (' + ins_set_clause + ') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);', (raw_ts,) + tuple(real_power))
+        cur.execute('INSERT IGNORE INTO R1Hz.reactive_power  (' + ins_set_clause + ') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);', (raw_ts,) + tuple(reactive_power))
+        cur.execute('INSERT IGNORE INTO R1Hz.apparent_power  (' + ins_set_clause + ') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);', (raw_ts,) + tuple(apparent_power))
+        cur.execute('INSERT IGNORE INTO R1Hz.real_energy     (' + ins_set_clause + ') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);', (raw_ts,) + tuple(real_energy))
+        cur.execute('INSERT IGNORE INTO R1Hz.reactive_energy (' + ins_set_clause + ') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);', (raw_ts,) + tuple(reactive_energy))
+        cur.execute('INSERT IGNORE INTO R1Hz.apparent_energy (' + ins_set_clause + ') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);', (raw_ts,) + tuple(apparent_energy))
 
-def insert_apparent_power(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
+        con.commit()
+    date = str(dt + day)[:10]
 
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.apparent_power (unix_ts) VALUES (%s);', all_ts)
-    con.commit()
-    cur.close()
-    con.close()
-
-def insert_real_energy(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
-
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.real_energy (unix_ts) VALUES (%s);', all_ts)
-    con.commit()
-    cur.close()
-    con.close()
-
-def insert_reactive_energy(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
-
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.reactive_energy (unix_ts) VALUES (%s);', all_ts)
-    con.commit()
-    cur.close()
-    con.close()
-
-def insert_apparent_energy(pwd):
-    con = mysql.connector.connect(host='localhost', user='root', passwd=pwd, database='R1Hz')
-    if not con.is_connected():
-        print('ERROR: unable to connect to MySQL!')
-        return
-
-    cur = con.cursor()
-    cur.executemany('INSERT IGNORE INTO R1Hz.apparent_energy (unix_ts) VALUES (%s);', all_ts)
-    con.commit()
-    cur.close()
-    con.close()
-
-
-if __name__ == "__main__":
-    print('Creating all ts list for meta ...')
-    all_ts = [(ts,) for ts in range(start_ts, end_ts+1)]
-    for ts in range(start_ts, end_ts+1):
-       dt = datetime.fromtimestamp(ts)
-       date = dt.strftime('%Y-%m-%d')
-       time = dt.strftime('%H:%M:%S')
-       all_ts_meta.append((ts, date, time))
-
-    print('Starting table insertion threads ...')
-    t0 = threading.Thread(target=insert_meta, args=params)
-    t1 = threading.Thread(target=insert_current, args=params)
-    t2 = threading.Thread(target=insert_displacement_pf, args=params)
-    t3 = threading.Thread(target=insert_apparent_pf, args=params)
-    t4 = threading.Thread(target=insert_real_power, args=params)
-    t5 = threading.Thread(target=insert_reactive_power, args=params)
-    t6 = threading.Thread(target=insert_apparent_power, args=params)
-    t7 = threading.Thread(target=insert_real_energy, args=params)
-    t8 = threading.Thread(target=insert_reactive_energy, args=params)
-    t9 = threading.Thread(target=insert_apparent_energy, args=params)
-
-    t0.start()
-    t1.start()
-    t2.start()
-    t3.start()
-    t4.start()
-    t5.start()
-    t6.start()
-    t7.start()
-    t8.start()
-    t9.start()
-
-    t0.join()
-    t1.join()
-    t2.join()
-    t3.join()
-    t4.join()
-    t5.join()
-    t6.join()
-    t7.join()
-    t8.join()
-    t9.join()
+cur.close()
+con.close()

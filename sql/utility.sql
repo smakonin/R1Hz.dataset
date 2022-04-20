@@ -1,7 +1,7 @@
 CREATE TABLE utility (
     reading_dt datetime NOT NULL,
     dst_switch char(1) CHARACTER SET ascii COLLATE ascii_bin NOT NULL DEFAULT 'N',
-    consumption double DEFAULT NULL,
+    consumption decimal(6,3) DEFAULT NULL,
     PRIMARY KEY (reading_dt,dst_switch)
 ) ENGINE=InnoDB DEFAULT CHARSET=ascii;
 
