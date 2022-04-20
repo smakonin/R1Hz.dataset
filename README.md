@@ -4,11 +4,11 @@
 Welcome to using the R1Hz (*pronounced* |rīz|) dataset.
 Data was downloaded from [http://doi.org/](http://doi.org/)
 
-### Need help? 
+### Need help?
 Please read: [http://doi.org/](http://doi.org/)
 (*Paper included, see* **.pdf**)
 
-### Using R1Hz? 
+### Using R1Hz?
 You **must cite** the above paper.
 (*BibTeX included, see* **.bib**)
 
@@ -19,7 +19,7 @@ You **must cite** the above paper.
 | Location:        | Burnaby, BC, Canada |
 | Local Timezone:  | America/Vancouver |
 | Year Built:      | 2016 |
-| Average Occupants: | 3| 
+| Average Occupants: | 3|
 | Floors:           | 1: Level 1, 105.4 m^2 |
 | |2: Level 2, 67.5 m^2 |
 | Lighting:        | Mainly LED with some zirconia light bulbs in the bathrooms |
@@ -31,7 +31,7 @@ You **must cite** the above paper.
 | Sub-meter Count: | 21 |
 | Sub-meter Mains: | meter1,meter2 |
 
-## Files
+## Final Dataset Files
 |File | Description |
 |:--|:--|
 |Voltage.csv         | |
@@ -51,7 +51,6 @@ You **must cite** the above paper.
 ## CSV Columns
 |Sub-Meter | Description |
 |:--|:--|
-|  |  |
 |meter1  | House Sub-Panel L1 |
 |meter2  | House Sub-Panel L2 |
 |meter3  | Lights & Plugs (general label) |
@@ -77,7 +76,7 @@ You **must cite** the above paper.
 ## Appliance Information
 | ID | Name | L1 | L2 | Mains? | Mixed Loads? | Notes                                                     |
 |:--|:--|:-:|:-:|:-:|:-:|:--|
-| MAIN | House Sub-Panel       | 1 | 2 | Y | Y | *see* † |
+| MAIN | House Sub-Panel       | 1 | 2 | Y | Y | garage has utility power, garage metering not included due to metering limitations |
 | BEDA | Bedroom Plugs         | | 13 | N | Y | AFCI Arc-Fault Plugs |
 | BEDP | Bedroom Plugs         | 6 | | N | Y | |
 | BOIL | Boiler                | | 8 | N | N | for hot water and radiant heating |
@@ -96,5 +95,3 @@ You **must cite** the above paper.
 | KIT2 | Kitchen Counter Plugs | 15 | | N | Y | |
 | OUTP | Outside Plugs         | | 18 | N | Y | |
 | VACU | Built-in Vacuum       | | 7 | N | N | |
-
-† *garage has utility power, garage metering not included due to metering limitations*
