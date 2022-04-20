@@ -13,6 +13,7 @@ You **must cite** the above paper.
 (*BibTeX included, see* **.bib**)
 
 ## House Details
+| Item | Description |
 |:--|:--|
 | Type Details:    | Residential side-attached duplex |
 | Location:        | Burnaby, BC, Canada |
