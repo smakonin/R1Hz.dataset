@@ -1,0 +1,19 @@
+{
+  "operation": "CSV serialization repair; no values were imputed",
+  "input_sha256": "1cdd30dbea1ea568ee647be6c333a29893c9e4cefe27bfa8650f79c6e7c7c12c",
+  "output_sha256": "87bcf8ee1167b9799188229c68a79597c2092d662107218018a0df83c725fa10",
+  "data_rows": 18984,
+  "columns": 15,
+  "input_parsed_width_counts": {
+    "15": 18582,
+    "16": 366,
+    "17": 36
+  },
+  "repaired_rows": 402,
+  "repaired_percent": 2.117572692793932,
+  "first_repaired_line": 204,
+  "last_repaired_line": 18825,
+  "input_bytes": 1333080,
+  "output_bytes": 1333884,
+  "semantic_mismatch_rows": 0
+}

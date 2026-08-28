@@ -10,6 +10,8 @@ Hourly circuit gaps were rebuilt from recovered 1 Hz real power. Utility gaps us
 
 Every affected row is marked `s`. For daily and monthly rows, the marker propagates when at least one lower-grain input is synthetic.
 
+The `climate.csv` correction is a separate format repair, not missing-data imputation. In 402 rows, a compound `weather` description contained one or two unquoted commas, which made those records parse as 16 or 17 columns. [`repair_climate_csv.py`](scripts/repair_climate_csv.py) quotes only the complete final field on those rows. All 18,984 semantic records are preserved, so these rows are not marked `s`.
+
 ## Contents
 
 | Path | Contents |
@@ -20,12 +22,16 @@ Every affected row is marked `s`. For daily and monthly rows, the marker propaga
 | `energy/cell_recovery_log.csv` | One row per reconstructed hourly energy cell |
 | `energy/recovery_summary.json` | Energy recovery counts |
 | `energy/validation_summary.json` | Reconciliation and validation receipt |
+| `scripts/repair_climate_csv.py` | Minimal, byte-preserving climate CSV format repair |
+| `climate_format_repair.json` | Input/output checksums and climate repair validation receipt |
 
 ## Verified results
 
 The four recovered 1 Hz files each contain 65,404,800 consecutive timestamp rows. No circuit-measurement blanks remain, and no originally observed circuit values changed. Filled-cell counts were 2,531,958 (`current.csv`), 2,531,959 (`power_factor.csv`), and 2,532,206 each (`power.csv` and `reactive.csv`).
 
 The recovered hourly product contains 876 reconstructed cells: 741 circuit cells, 90 utility cells from native IHD hourly means, 14 utility cells from the month-local model with a partial-IHD check, and 31 utility cells from that model without IHD coverage. Nineteen boundary circuit blanks remain intentionally on the first hourly row. Daily and monthly energy files contain no blanks, and their reconciliations have a maximum absolute difference of 0 Wh.
+
+The repaired climate file has 18,984 data rows and exactly 15 columns under a strict CSV parser. Only 402 physical lines changed, by adding 804 quote characters around compound weather values. Its SHA-256 checksum is `87bcf8ee1167b9799188229c68a79597c2092d662107218018a0df83c725fa10`; the parsed values before and after repair are identical.
 
 ## Reproduction notes
 
