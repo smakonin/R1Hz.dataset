@@ -12,7 +12,7 @@ import os, sys, mysql.connector
 from datetime import datetime, timedelta
 
 pwd = sys.argv[1]
-input_filename = './raw-modbus/SUB_%s.csv'
+input_filename = './raw_modbus/SUB_%s.csv'
 start_dt = '2018-06-09' #'2017-09-13'
 end_dt = '2018-06-10' #'2019-10-10' #'2019-10-09'+1 for proper loop end
 submeter_count = 21
