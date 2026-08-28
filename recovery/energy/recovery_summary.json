@@ -1,0 +1,26 @@
+{
+  "hourly_rows": 18168,
+  "daily_rows": 757,
+  "monthly_rows": 26,
+  "hourly_recovered_cells": 876,
+  "circuit_recovered_cells": 741,
+  "utility_recovered_cells": 135,
+  "hourly_marker_s_rows": 174,
+  "daily_marker_s_rows": 47,
+  "monthly_marker_s_rows": 21,
+  "remaining_hourly_blank_energy_cells": 19,
+  "remaining_daily_blank_energy_cells": 0,
+  "remaining_monthly_blank_energy_cells": 0,
+  "hourly_changed_energy_cells": 876,
+  "daily_changed_energy_cells": 94,
+  "monthly_changed_energy_cells": 54,
+  "utility_method_counts": {
+    "ihd_hourly_mean_round10": 90,
+    "utility_main_model_partial_ihd_check": 14,
+    "utility_main_model": 31
+  },
+  "opening_boundary": {
+    "unix_ts": 1505286000,
+    "blank_circuit_cells_left_unchanged": 19
+  }
+}

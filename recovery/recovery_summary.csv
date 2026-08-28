@@ -1,0 +1,5 @@
+file,rows,marker_s_rows,filled_measurement_cells,preserved_measured_cells,remaining_null_measurement_rows,missing_timestamps,malformed_rows,other_existing_marker_rows
+current.csv,65404800,133261,2531958,1,0,0,0,64
+power_factor.csv,65404800,133261,2531959,0,0,0,0,64
+power.csv,65404800,133274,2532206,0,0,0,0,51
+reactive.csv,65404800,133274,2532206,0,0,0,0,51

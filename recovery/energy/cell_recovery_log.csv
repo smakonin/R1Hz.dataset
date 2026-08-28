@@ -1,0 +1,877 @@
+file,unix_ts,local_dt,local_tm,column,original_value,recovered_value,method,source_hour_unix_ts,source_samples,confidence,notes
+energy_hourly.csv,1505642400,2017-09-17,03:00:00,utility,,160,ihd_hourly_mean_round10,1505638800,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 430 observed rows in 2017-09.
+energy_hourly.csv,1509872400,2017-11-05,01:00:00,utility,,160,ihd_hourly_mean_round10,1509868800,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 720 observed rows in 2017-11.
+energy_hourly.csv,1512655200,2017-12-07,06:00:00,utility,,160,ihd_hourly_mean_round10,1512651600,449,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514250000,2017-12-25,17:00:00,utility,,550,utility_main_model_partial_ihd_check,1514246400,41,medium-high,Partial-IHD cross-check=460 Wh from 41 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514253600,2017-12-25,18:00:00,utility,,3700,utility_main_model_partial_ihd_check,1514250000,43,medium-high,Partial-IHD cross-check=3540 Wh from 43 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514257200,2017-12-25,19:00:00,utility,,1060,utility_main_model_partial_ihd_check,1514253600,35,medium-high,Partial-IHD cross-check=1240 Wh from 35 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514260800,2017-12-25,20:00:00,utility,,510,utility_main_model_partial_ihd_check,1514257200,30,medium-high,Partial-IHD cross-check=460 Wh from 30 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514264400,2017-12-25,21:00:00,utility,,480,utility_main_model_partial_ihd_check,1514260800,17,medium-high,Partial-IHD cross-check=720 Wh from 17 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514268000,2017-12-25,22:00:00,utility,,570,utility_main_model_partial_ihd_check,1514264400,16,medium-high,Partial-IHD cross-check=440 Wh from 16 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514271600,2017-12-25,23:00:00,utility,,500,utility_main_model_partial_ihd_check,1514268000,18,medium-high,Partial-IHD cross-check=570 Wh from 18 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514275200,2017-12-26,00:00:00,utility,,190,utility_main_model_partial_ihd_check,1514271600,12,medium-high,Partial-IHD cross-check=270 Wh from 12 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514278800,2017-12-26,01:00:00,utility,,160,utility_main_model_partial_ihd_check,1514275200,16,medium-high,Partial-IHD cross-check=170 Wh from 16 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514282400,2017-12-26,02:00:00,utility,,140,utility_main_model_partial_ihd_check,1514278800,11,medium-high,Partial-IHD cross-check=130 Wh from 11 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514286000,2017-12-26,03:00:00,utility,,160,utility_main_model_partial_ihd_check,1514282400,5,medium-high,Partial-IHD cross-check=120 Wh from 5 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514289600,2017-12-26,04:00:00,utility,,150,utility_main_model_partial_ihd_check,1514286000,5,medium-high,Partial-IHD cross-check=130 Wh from 5 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514293200,2017-12-26,05:00:00,utility,,150,utility_main_model_partial_ihd_check,1514289600,261,medium-high,Partial-IHD cross-check=140 Wh from 261 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514296800,2017-12-26,06:00:00,utility,,150,ihd_hourly_mean_round10,1514293200,450,high,Main-model cross-check=150 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514300400,2017-12-26,07:00:00,utility,,410,ihd_hourly_mean_round10,1514296800,450,high,Main-model cross-check=410 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514304000,2017-12-26,08:00:00,utility,,330,ihd_hourly_mean_round10,1514300400,450,high,Main-model cross-check=340 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514307600,2017-12-26,09:00:00,utility,,550,ihd_hourly_mean_round10,1514304000,450,high,Main-model cross-check=550 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514311200,2017-12-26,10:00:00,utility,,370,ihd_hourly_mean_round10,1514307600,450,high,Main-model cross-check=370 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514314800,2017-12-26,11:00:00,utility,,420,ihd_hourly_mean_round10,1514311200,450,high,Main-model cross-check=420 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514318400,2017-12-26,12:00:00,utility,,230,ihd_hourly_mean_round10,1514314800,450,high,Main-model cross-check=230 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514322000,2017-12-26,13:00:00,utility,,220,ihd_hourly_mean_round10,1514318400,448,high,Main-model cross-check=220 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514325600,2017-12-26,14:00:00,utility,,340,ihd_hourly_mean_round10,1514322000,450,high,Main-model cross-check=340 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514329200,2017-12-26,15:00:00,utility,,420,ihd_hourly_mean_round10,1514325600,450,high,Main-model cross-check=420 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514332800,2017-12-26,16:00:00,utility,,450,utility_main_model_partial_ihd_check,1514329200,414,medium-high,Partial-IHD cross-check=440 Wh from 414 samples. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514336400,2017-12-26,17:00:00,utility,,470,ihd_hourly_mean_round10,1514332800,450,high,Main-model cross-check=480 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514340000,2017-12-26,18:00:00,utility,,340,ihd_hourly_mean_round10,1514336400,450,high,Main-model cross-check=340 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514343600,2017-12-26,19:00:00,utility,,370,ihd_hourly_mean_round10,1514340000,450,high,Main-model cross-check=370 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514347200,2017-12-26,20:00:00,utility,,360,ihd_hourly_mean_round10,1514343600,450,high,Main-model cross-check=370 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514350800,2017-12-26,21:00:00,utility,,600,ihd_hourly_mean_round10,1514347200,450,high,Main-model cross-check=600 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514354400,2017-12-26,22:00:00,utility,,410,ihd_hourly_mean_round10,1514350800,450,high,Main-model cross-check=410 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514358000,2017-12-26,23:00:00,utility,,400,ihd_hourly_mean_round10,1514354400,450,high,Main-model cross-check=400 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514361600,2017-12-27,00:00:00,utility,,220,ihd_hourly_mean_round10,1514358000,450,high,Main-model cross-check=220 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514365200,2017-12-27,01:00:00,utility,,160,ihd_hourly_mean_round10,1514361600,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514368800,2017-12-27,02:00:00,utility,,160,ihd_hourly_mean_round10,1514365200,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514372400,2017-12-27,03:00:00,utility,,150,ihd_hourly_mean_round10,1514368800,450,high,Main-model cross-check=150 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514376000,2017-12-27,04:00:00,utility,,150,ihd_hourly_mean_round10,1514372400,450,high,Main-model cross-check=150 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514379600,2017-12-27,05:00:00,utility,,150,ihd_hourly_mean_round10,1514376000,449,high,Main-model cross-check=150 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514383200,2017-12-27,06:00:00,utility,,150,ihd_hourly_mean_round10,1514379600,450,high,Main-model cross-check=160 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514386800,2017-12-27,07:00:00,utility,,580,ihd_hourly_mean_round10,1514383200,450,high,Main-model cross-check=580 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514390400,2017-12-27,08:00:00,utility,,460,ihd_hourly_mean_round10,1514386800,450,high,Main-model cross-check=460 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514394000,2017-12-27,09:00:00,utility,,420,ihd_hourly_mean_round10,1514390400,450,high,Main-model cross-check=420 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514397600,2017-12-27,10:00:00,utility,,570,ihd_hourly_mean_round10,1514394000,450,high,Main-model cross-check=570 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514401200,2017-12-27,11:00:00,utility,,580,ihd_hourly_mean_round10,1514397600,450,high,Main-model cross-check=570 Wh; delta=10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514404800,2017-12-27,12:00:00,utility,,520,ihd_hourly_mean_round10,1514401200,450,high,Main-model cross-check=530 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514408400,2017-12-27,13:00:00,utility,,540,ihd_hourly_mean_round10,1514404800,449,high,Main-model cross-check=540 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514412000,2017-12-27,14:00:00,utility,,390,ihd_hourly_mean_round10,1514408400,449,high,Main-model cross-check=390 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514415600,2017-12-27,15:00:00,utility,,300,ihd_hourly_mean_round10,1514412000,450,high,Main-model cross-check=300 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514419200,2017-12-27,16:00:00,utility,,330,ihd_hourly_mean_round10,1514415600,450,high,Main-model cross-check=330 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514422800,2017-12-27,17:00:00,utility,,410,ihd_hourly_mean_round10,1514419200,450,high,Main-model cross-check=410 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514426400,2017-12-27,18:00:00,utility,,370,ihd_hourly_mean_round10,1514422800,450,high,Main-model cross-check=380 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514430000,2017-12-27,19:00:00,utility,,390,ihd_hourly_mean_round10,1514426400,450,high,Main-model cross-check=390 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514433600,2017-12-27,20:00:00,utility,,340,ihd_hourly_mean_round10,1514430000,450,high,Main-model cross-check=340 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514437200,2017-12-27,21:00:00,utility,,450,ihd_hourly_mean_round10,1514433600,450,high,Main-model cross-check=460 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514440800,2017-12-27,22:00:00,utility,,580,ihd_hourly_mean_round10,1514437200,450,high,Main-model cross-check=580 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514444400,2017-12-27,23:00:00,utility,,310,ihd_hourly_mean_round10,1514440800,451,high,Main-model cross-check=310 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514448000,2017-12-28,00:00:00,utility,,160,ihd_hourly_mean_round10,1514444400,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514451600,2017-12-28,01:00:00,utility,,150,ihd_hourly_mean_round10,1514448000,450,high,Main-model cross-check=150 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514455200,2017-12-28,02:00:00,utility,,160,ihd_hourly_mean_round10,1514451600,450,high,Main-model cross-check=150 Wh; delta=10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514458800,2017-12-28,03:00:00,utility,,160,ihd_hourly_mean_round10,1514455200,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514462400,2017-12-28,04:00:00,utility,,160,ihd_hourly_mean_round10,1514458800,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514466000,2017-12-28,05:00:00,utility,,160,ihd_hourly_mean_round10,1514462400,448,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514469600,2017-12-28,06:00:00,utility,,160,ihd_hourly_mean_round10,1514466000,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514473200,2017-12-28,07:00:00,utility,,570,ihd_hourly_mean_round10,1514469600,451,high,Main-model cross-check=570 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514476800,2017-12-28,08:00:00,utility,,430,ihd_hourly_mean_round10,1514473200,450,high,Main-model cross-check=430 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514480400,2017-12-28,09:00:00,utility,,430,ihd_hourly_mean_round10,1514476800,450,high,Main-model cross-check=430 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514484000,2017-12-28,10:00:00,utility,,370,ihd_hourly_mean_round10,1514480400,450,high,Main-model cross-check=380 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514487600,2017-12-28,11:00:00,utility,,370,ihd_hourly_mean_round10,1514484000,450,high,Main-model cross-check=370 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514491200,2017-12-28,12:00:00,utility,,300,ihd_hourly_mean_round10,1514487600,450,high,Main-model cross-check=300 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514494800,2017-12-28,13:00:00,utility,,410,ihd_hourly_mean_round10,1514491200,449,high,Main-model cross-check=410 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514498400,2017-12-28,14:00:00,utility,,470,ihd_hourly_mean_round10,1514494800,450,high,Main-model cross-check=470 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514502000,2017-12-28,15:00:00,utility,,420,ihd_hourly_mean_round10,1514498400,450,high,Main-model cross-check=430 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514505600,2017-12-28,16:00:00,utility,,270,ihd_hourly_mean_round10,1514502000,450,high,Main-model cross-check=270 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514509200,2017-12-28,17:00:00,utility,,250,ihd_hourly_mean_round10,1514505600,450,high,Main-model cross-check=250 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514512800,2017-12-28,18:00:00,utility,,360,ihd_hourly_mean_round10,1514509200,450,high,Main-model cross-check=360 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514516400,2017-12-28,19:00:00,utility,,320,ihd_hourly_mean_round10,1514512800,450,high,Main-model cross-check=320 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514520000,2017-12-28,20:00:00,utility,,380,ihd_hourly_mean_round10,1514516400,450,high,Main-model cross-check=370 Wh; delta=10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514523600,2017-12-28,21:00:00,utility,,400,ihd_hourly_mean_round10,1514520000,450,high,Main-model cross-check=400 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514527200,2017-12-28,22:00:00,utility,,650,ihd_hourly_mean_round10,1514523600,450,high,Main-model cross-check=650 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514530800,2017-12-28,23:00:00,utility,,480,ihd_hourly_mean_round10,1514527200,450,high,Main-model cross-check=480 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514534400,2017-12-29,00:00:00,utility,,150,ihd_hourly_mean_round10,1514530800,450,high,Main-model cross-check=150 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514538000,2017-12-29,01:00:00,utility,,160,ihd_hourly_mean_round10,1514534400,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514541600,2017-12-29,02:00:00,utility,,160,ihd_hourly_mean_round10,1514538000,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514545200,2017-12-29,03:00:00,utility,,160,ihd_hourly_mean_round10,1514541600,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514548800,2017-12-29,04:00:00,utility,,160,ihd_hourly_mean_round10,1514545200,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514552400,2017-12-29,05:00:00,utility,,160,ihd_hourly_mean_round10,1514548800,450,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514556000,2017-12-29,06:00:00,utility,,180,ihd_hourly_mean_round10,1514552400,450,high,Main-model cross-check=180 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514559600,2017-12-29,07:00:00,utility,,320,ihd_hourly_mean_round10,1514556000,450,high,Main-model cross-check=320 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514563200,2017-12-29,08:00:00,utility,,310,ihd_hourly_mean_round10,1514559600,450,high,Main-model cross-check=320 Wh; delta=-10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514566800,2017-12-29,09:00:00,utility,,570,ihd_hourly_mean_round10,1514563200,450,high,Main-model cross-check=570 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514570400,2017-12-29,10:00:00,utility,,420,ihd_hourly_mean_round10,1514566800,450,high,Main-model cross-check=420 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514574000,2017-12-29,11:00:00,utility,,620,ihd_hourly_mean_round10,1514570400,450,high,Main-model cross-check=620 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514577600,2017-12-29,12:00:00,utility,,500,ihd_hourly_mean_round10,1514574000,450,high,Main-model cross-check=500 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514581200,2017-12-29,13:00:00,utility,,1150,ihd_hourly_mean_round10,1514577600,449,high,Main-model cross-check=1140 Wh; delta=10 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514584800,2017-12-29,14:00:00,utility,,330,ihd_hourly_mean_round10,1514581200,450,high,Main-model cross-check=330 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514588400,2017-12-29,15:00:00,utility,,270,ihd_hourly_mean_round10,1514584800,450,high,Main-model cross-check=270 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514592000,2017-12-29,16:00:00,utility,,340,ihd_hourly_mean_round10,1514588400,450,high,Main-model cross-check=340 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1514718000,2017-12-31,03:00:00,utility,,160,ihd_hourly_mean_round10,1514714400,451,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 646 observed rows in 2017-12.
+energy_hourly.csv,1518127200,2018-02-08,14:00:00,utility,,180,ihd_hourly_mean_round10,1518123600,450,high,Main-model cross-check=180 Wh; delta=0 Wh. Model trained on 669 observed rows in 2018-02.
+energy_hourly.csv,1519099200,2018-02-19,20:00:00,utility,,910,utility_main_model,1519095600,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 669 observed rows in 2018-02.
+energy_hourly.csv,1519812000,2018-02-28,02:00:00,utility,,160,utility_main_model,1519808400,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 669 observed rows in 2018-02.
+energy_hourly.csv,1520539200,2018-03-08,12:00:00,utility,,200,utility_main_model,1520535600,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 742 observed rows in 2018-03.
+energy_hourly.csv,1523599200,2018-04-12,23:00:00,utility,,170,utility_main_model,1523595600,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 718 observed rows in 2018-04.
+energy_hourly.csv,1525006800,2018-04-29,06:00:00,utility,,150,utility_main_model,1525003200,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 718 observed rows in 2018-04.
+energy_hourly.csv,1526994000,2018-05-22,06:00:00,utility,,200,utility_main_model,1526990400,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 743 observed rows in 2018-05.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,beda,,4,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,bedp,,182,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,boil,,113,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,frdg,,44,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,gen3,,37,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,main,,407,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528484400,2018-06-08,12:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528480800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,beda,,3,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,bedp,,272,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,boil,,28,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,frdg,,48,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,main,,416,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528488000,2018-06-08,13:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528484400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,beda,,3,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,bedp,,255,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,dryr,,0,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,frdg,,36,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,main,,375,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528491600,2018-06-08,14:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528488000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,beda,,3,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,bedp,,276,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,frdg,,51,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,gen2,,19,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,gen3,,41,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,main,,430,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528495200,2018-06-08,15:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528491600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,beda,,9,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,bedp,,283,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,frdg,,50,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,gen2,,17,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,gen3,,40,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,gen6,,16,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,main,,444,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528498800,2018-06-08,16:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528495200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,beda,,21,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,bedp,,85,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,frdg,,62,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,gen3,,69,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,gen5,,6,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,gen6,,42,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,kit1,,96,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,kit2,,1,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,main,,411,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528502400,2018-06-08,17:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528498800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,beda,,29,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,bedp,,80,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,dryr,,0,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,frdg,,38,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,gen3,,40,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,gen5,,38,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,gen6,,20,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,main,,277,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528506000,2018-06-08,18:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528502400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,beda,,21,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,bedp,,88,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,boil,,33,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,frdg,,66,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,main,,273,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528509600,2018-06-08,19:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528506000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,beda,,19,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,bedp,,88,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,frdg,,35,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,main,,222,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528513200,2018-06-08,20:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528509600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,beda,,19,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,bedp,,88,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,dryr,,0,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,frdg,,61,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,gen1,,3,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,gen2,,7,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,gen3,,40,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,gen5,,13,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,gen6,,9,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,main,,269,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528516800,2018-06-08,21:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528513200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,beda,,6,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,bedp,,83,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,boil,,37,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,frdg,,34,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,gen1,,36,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,gen2,,92,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,gen3,,40,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,gen5,,116,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,gen6,,25,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,main,,485,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528520400,2018-06-08,22:00:00,vacu,,1,recovered_1hz_power_mean_ceil,1528516800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,beda,,14,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,bedp,,82,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,frdg,,65,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,gen2,,17,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,main,,255,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528524000,2018-06-08,23:00:00,vacu,,1,recovered_1hz_power_mean_ceil,1528520400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,beda,,6,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,bedp,,69,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,dryr,,0,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,frdg,,37,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,gen2,,10,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,gen5,,10,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,gen6,,3,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,main,,203,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528527600,2018-06-09,00:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528524000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,beda,,4,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,bedp,,59,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,frdg,,52,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,main,,194,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528531200,2018-06-09,01:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528527600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,beda,,4,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,bedp,,61,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,frdg,,41,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,main,,186,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528534800,2018-06-09,02:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528531200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,beda,,4,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,bedp,,66,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,dryr,,0,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,frdg,,44,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,main,,195,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528538400,2018-06-09,03:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528534800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,beda,,4,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,bedp,,59,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,frdg,,52,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,main,,194,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528542000,2018-06-09,04:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528538400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,beda,,4,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,bedp,,69,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,dryr,,0,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,frdg,,41,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,main,,194,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528545600,2018-06-09,05:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528542000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,beda,,4,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,bedp,,59,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,frdg,,36,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,main,,176,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528549200,2018-06-09,06:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528545600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,beda,,4,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,bedp,,61,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,boil,,33,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,dryr,,0,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,frdg,,42,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,gen2,,21,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,gen3,,40,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,gen6,,3,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,main,,226,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528552800,2018-06-09,07:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528549200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,beda,,6,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,bedp,,67,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,frdg,,63,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,gen3,,44,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,gen5,,8,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,kit1,,133,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,kit2,,1,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,main,,356,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528556400,2018-06-09,08:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528552800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,beda,,4,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,bedp,,69,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,dryr,,0,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,frdg,,33,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,gen2,,14,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,gen3,,49,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,gen6,,3,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,main,,206,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528560000,2018-06-09,09:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528556400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,beda,,3,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,bedp,,60,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,boil,,126,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,cwsh,,86,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,frdg,,48,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,gen2,,14,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,gen3,,42,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,gen5,,106,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,main,,503,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528563600,2018-06-09,10:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528560000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,beda,,3,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,bedp,,69,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,boil,,14,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,cwsh,,164,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,dryr,,0,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,frdg,,54,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,gen2,,26,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,gen3,,41,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,gen5,,143,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,main,,532,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528567200,2018-06-09,11:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528563600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,beda,,3,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,bedp,,74,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,cwsh,,11,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,dryr,,2093,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,frdg,,50,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,gen1,,1,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,gen5,,72,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,main,,2387,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528570800,2018-06-09,12:00:00,vacu,,1,recovered_1hz_power_mean_ceil,1528567200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,beda,,6,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,bedp,,95,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,dryr,,3133,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,frdg,,51,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,kit1,,53,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,kit2,,1,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,main,,3430,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528574400,2018-06-09,13:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528570800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,beda,,13,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,bedp,,80,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,dryr,,26,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,frdg,,52,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,gen3,,43,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,gen5,,6,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,kit1,,125,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,kit2,,1,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,main,,378,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528578000,2018-06-09,14:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528574400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,beda,,19,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,bedp,,106,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,frdg,,54,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,main,,260,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528581600,2018-06-09,15:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528578000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,beda,,20,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,bedp,,90,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,frdg,,39,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,main,,229,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528585200,2018-06-09,16:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528581600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,beda,,20,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,bedp,,69,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,boil,,15,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,frdg,,58,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,gen2,,6,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,gen3,,40,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,gen6,,3,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,main,,231,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528588800,2018-06-09,17:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528585200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,beda,,8,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,bedp,,59,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,boil,,34,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,frdg,,41,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,gen2,,16,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,gen3,,40,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,gen6,,2,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,main,,220,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528592400,2018-06-09,18:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528588800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,beda,,8,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,bedp,,70,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,boil,,36,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,frdg,,48,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,gen2,,2,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,gen3,,39,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,gen5,,7,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,gen6,,31,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,main,,255,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528596000,2018-06-09,19:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528592400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,beda,,5,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,bedp,,57,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,boil,,38,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,chrg,,1,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,frdg,,57,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,gen3,,36,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,gen5,,42,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,gen6,,17,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,main,,269,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,outp,,1,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528599600,2018-06-09,20:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1528596000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1528941600,2018-06-13,19:00:00,utility,,310,utility_main_model,1528938000,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 686 observed rows in 2018-06.
+energy_hourly.csv,1531018800,2018-07-07,20:00:00,utility,,380,utility_main_model,1531015200,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 742 observed rows in 2018-07.
+energy_hourly.csv,1531425600,2018-07-12,13:00:00,utility,,280,utility_main_model,1531422000,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 742 observed rows in 2018-07.
+energy_hourly.csv,1533236400,2018-08-02,12:00:00,utility,,160,ihd_hourly_mean_round10,1533232800,448,high,Main-model cross-check=160 Wh; delta=0 Wh. Model trained on 740 observed rows in 2018-08.
+energy_hourly.csv,1533769200,2018-08-08,16:00:00,utility,,270,utility_main_model,1533765600,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 740 observed rows in 2018-08.
+energy_hourly.csv,1534104000,2018-08-12,13:00:00,utility,,130,utility_main_model,1534100400,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 740 observed rows in 2018-08.
+energy_hourly.csv,1535122800,2018-08-24,08:00:00,utility,,510,utility_main_model,1535119200,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 740 observed rows in 2018-08.
+energy_hourly.csv,1535983200,2018-09-03,07:00:00,utility,,220,ihd_hourly_mean_round10,1535979600,440,high,Main-model cross-check=230 Wh; delta=-10 Wh. Model trained on 717 observed rows in 2018-09.
+energy_hourly.csv,1536649200,2018-09-11,00:00:00,utility,,270,ihd_hourly_mean_round10,1536645600,442,high,Main-model cross-check=270 Wh; delta=0 Wh. Model trained on 717 observed rows in 2018-09.
+energy_hourly.csv,1537398000,2018-09-19,16:00:00,utility,,470,utility_main_model,1537394400,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 717 observed rows in 2018-09.
+energy_hourly.csv,1539176400,2018-10-10,06:00:00,utility,,430,utility_main_model,1539172800,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 742 observed rows in 2018-10.
+energy_hourly.csv,1539950400,2018-10-19,05:00:00,utility,,390,utility_main_model,1539946800,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 742 observed rows in 2018-10.
+energy_hourly.csv,1541322000,2018-11-04,01:00:00,utility,,200,utility_main_model,1541318400,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 720 observed rows in 2018-11.
+energy_hourly.csv,1544169600,2018-12-07,00:00:00,utility,,210,utility_main_model,1544166000,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 741 observed rows in 2018-12.
+energy_hourly.csv,1544893200,2018-12-15,09:00:00,utility,,480,utility_main_model,1544889600,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 741 observed rows in 2018-12.
+energy_hourly.csv,1545753600,2018-12-25,08:00:00,utility,,450,utility_main_model,1545750000,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 741 observed rows in 2018-12.
+energy_hourly.csv,1546844400,2019-01-06,23:00:00,utility,,210,utility_main_model,1546840800,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 740 observed rows in 2019-01.
+energy_hourly.csv,1547481600,2019-01-14,08:00:00,utility,,680,utility_main_model,1547478000,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 740 observed rows in 2019-01.
+energy_hourly.csv,1548417600,2019-01-25,04:00:00,utility,,280,utility_main_model,1548414000,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 740 observed rows in 2019-01.
+energy_hourly.csv,1548950400,2019-01-31,08:00:00,utility,,570,utility_main_model,1548946800,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 740 observed rows in 2019-01.
+energy_hourly.csv,1550390400,2019-02-17,00:00:00,utility,,300,utility_main_model,1550386800,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 671 observed rows in 2019-02.
+energy_hourly.csv,1551924000,2019-03-06,18:00:00,utility,,350,utility_main_model,1551920400,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 741 observed rows in 2019-03.
+energy_hourly.csv,1553580000,2019-03-25,23:00:00,utility,,270,utility_main_model,1553576400,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 741 observed rows in 2019-03.
+energy_hourly.csv,1555063200,2019-04-12,03:00:00,utility,,210,utility_main_model,1555059600,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 719 observed rows in 2019-04.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,beda,,4,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,bedp,,46,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,boil,,15,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,frdg,,62,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,gen3,,37,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,gen5,,8,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,gen6,,1,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,main,,189,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,outp,,1,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559383200,2019-06-01,03:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1559379600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,beda,,3,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,bedp,,18,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,boil,,16,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,frdg,,44,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,gen3,,34,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,gen5,,8,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,gen6,,0,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,main,,140,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,outp,,1,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559386800,2019-06-01,04:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1559383200,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,beda,,3,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,bedp,,18,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,boil,,16,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,frdg,,44,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,gen3,,34,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,gen5,,8,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,gen6,,0,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,main,,139,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,outp,,1,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559390400,2019-06-01,05:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1559386800,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,beda,,3,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,bedp,,18,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,boil,,16,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,frdg,,42,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,gen3,,38,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,gen5,,8,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,gen6,,0,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,main,,142,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,outp,,1,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559394000,2019-06-01,06:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1559390400,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,beda,,3,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,bedp,,19,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,boil,,16,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,frdg,,41,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,gen2,,3,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,gen3,,34,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,gen5,,8,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,gen6,,0,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,main,,137,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,outp,,1,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559397600,2019-06-01,07:00:00,vacu,,0,recovered_1hz_power_mean_ceil,1559394000,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,beda,,5,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,bedp,,27,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,boil,,16,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,chrg,,0,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,cwsh,,3,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,dryr,,1,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,dwsh,,0,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,frdg,,41,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,gen1,,0,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,gen2,,72,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,gen3,,36,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,gen4,,2,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,gen5,,45,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,gen6,,13,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,kit1,,1,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,kit2,,0,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,main,,269,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,outp,,1,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559401200,2019-06-01,08:00:00,vacu,,1,recovered_1hz_power_mean_ceil,1559397600,3600,medium,Hourly aggregation is direct; missing 1 Hz seconds are synthetic donor values.
+energy_hourly.csv,1559829600,2019-06-06,07:00:00,utility,,600,utility_main_model,1559826000,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 713 observed rows in 2019-06.
+energy_hourly.csv,1566514800,2019-08-22,16:00:00,utility,,280,utility_main_model,1566511200,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 742 observed rows in 2019-08.
+energy_hourly.csv,1567054800,2019-08-28,22:00:00,utility,,610,utility_main_model,1567051200,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 742 observed rows in 2019-08.
+energy_hourly.csv,1569826800,2019-09-30,00:00:00,utility,,300,utility_main_model,1569823200,0,medium-high,No usable IHD samples; month-local utility~main calibration used. Model trained on 719 observed rows in 2019-09.

@@ -1,1 +1,0 @@
-Raw MODBUS files are not included due to GitHub kacking at the size of 82.37GB (758 CSV files).

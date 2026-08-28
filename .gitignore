@@ -131,3 +131,8 @@ dmypy.json
 .DS_Store
 *.csv
 *.numbers
+
+# Compact, versioned recovery evidence is intentionally tracked.
+!recovery/recovery_summary.csv
+!recovery/method_inputs/*.csv
+!recovery/energy/cell_recovery_log.csv

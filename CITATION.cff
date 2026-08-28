@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite the dataset DOI and record the Git commit used for processing."
+title: "The Residential 1 Hz Energy Dataset (R1Hz)"
+type: dataset
+authors:
+  - family-names: Makonin
+    given-names: Stephen
+  - family-names: Agron
+    given-names: Danielle Jaye
+  - family-names: Palmer
+    given-names: Patrick
+doi: 10.7910/DVN/RCB5VJ
+url: "https://doi.org/10.7910/DVN/RCB5VJ"
+repository-code: "https://github.com/smakonin/R1Hz.dataset"
+preferred-citation:
+  type: dataset
+  title: "The Residential 1 Hz Energy Dataset (R1Hz)"
+  authors:
+    - family-names: Makonin
+      given-names: Stephen
+    - family-names: Agron
+      given-names: Danielle Jaye
+    - family-names: Palmer
+      given-names: Patrick
+  year: 2026
+  publisher:
+    name: Harvard Dataverse
+  doi: 10.7910/DVN/RCB5VJ
+  url: "https://doi.org/10.7910/DVN/RCB5VJ"

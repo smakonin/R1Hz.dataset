@@ -1,0 +1,27 @@
+unix_ts,file,method
+1528598292,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1528598292,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399189,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399189,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399190,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399190,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399191,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399191,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399207,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399207,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399208,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399208,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399209,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399209,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399210,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399210,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399211,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399211,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399212,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399212,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399213,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399213,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399214,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399214,reactive.csv,linear interpolation between nearest valid bracketing seconds
+1559399215,power.csv,local channel regression: P = intercept + slope * current * power_factor
+1559399215,reactive.csv,linear interpolation between nearest valid bracketing seconds

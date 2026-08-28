@@ -1,0 +1,51 @@
+{
+  "schemas_equal": true,
+  "row_counts": {
+    "hourly": 18168,
+    "daily": 757,
+    "monthly": 26
+  },
+  "timestamps_unchanged": true,
+  "duplicate_timestamps": {
+    "hourly": 0,
+    "daily": 0,
+    "monthly": 0
+  },
+  "observed_hourly_energy_cells_changed": 0,
+  "recovered_hourly_cells": 876,
+  "recovery_methods": {
+    "recovered_1hz_power_mean_ceil": 741,
+    "ihd_hourly_mean_round10": 90,
+    "utility_main_model": 31,
+    "utility_main_model_partial_ihd_check": 14
+  },
+  "marker_s_rows": {
+    "hourly": 174,
+    "daily": 47,
+    "monthly": 21
+  },
+  "remaining_blank_energy_cells": {
+    "hourly": 19,
+    "daily": 0,
+    "monthly": 0
+  },
+  "remaining_blank_rows": [
+    {
+      "unix_ts": 1505286000,
+      "local_dt": "2017-09-13",
+      "local_tm": "00:00:00"
+    }
+  ],
+  "hourly_to_daily_max_abs_difference_wh": 0.0,
+  "daily_to_monthly_max_abs_difference_wh": 0.0,
+  "daily_marker_propagation_exact": true,
+  "monthly_marker_propagation_exact": true,
+  "ihd_vs_main_crosscheck": {
+    "hours": 90,
+    "median_abs_difference_wh": 0.0,
+    "p95_abs_difference_wh": 10.0,
+    "max_abs_difference_wh": 10
+  },
+  "status": "passed",
+  "failures": []
+}

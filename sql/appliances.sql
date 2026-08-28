@@ -28,7 +28,7 @@ REPLACE INTO R1Hz.appliances (appliance_id, name, meter_l1, meter_l2, is_mains, 
     ('OUTP', 'Outside Plugs',            NULL,   18, 'N', 'Y', ''),
     ('DWSH', 'Dishwasher',               NULL,   19, 'N', 'N', ''),
     ('GEN6', 'Lights & Plugs',             20, NULL, 'N', 'Y', 'general label'),
-    ('CHRG', 'Phone Changers',           NULL,   21, 'N', 'N', 'garburator & microwave not installed');
+    ('CHRG', 'Phone Chargers',           NULL,   21, 'N', 'N', 'garburator & microwave not installed');
 
 SELECT * FROM appliances;
 
