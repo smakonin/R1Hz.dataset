@@ -3,6 +3,7 @@
 #include <ctype.h>
 #include <errno.h>
 #include <inttypes.h>
+#include <math.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -49,6 +50,14 @@ static int is_blank(const char *value) {
         ++value;
     }
     return 1;
+}
+
+static int is_number(const char *value) {
+    if (is_blank(value)) return 0;
+    char *end = NULL;
+    errno = 0;
+    double parsed = strtod(value, &end);
+    return errno == 0 && end != value && *end == '\0' && isfinite(parsed);
 }
 
 static int in_intervals(int64_t timestamp, const Interval *intervals, size_t count) {
@@ -162,14 +171,14 @@ int main(int argc, char **argv) {
                     fprintf(stderr, "Metadata changed at timestamp %" PRId64 "\n", original_timestamp);
                     return 1;
                 }
-            } else if (is_blank(original_fields[i])) {
-                if (is_blank(recovered_fields[i])) {
-                    fprintf(stderr, "Measurement remains blank at timestamp %" PRId64 "\n", original_timestamp);
+            } else if (!is_number(original_fields[i])) {
+                if (!is_number(recovered_fields[i])) {
+                    fprintf(stderr, "Measurement remains missing or invalid at timestamp %" PRId64 "\n", original_timestamp);
                     return 1;
                 }
                 ++filled_cells;
             } else {
-                if (strcmp(original_fields[i], recovered_fields[i]) != 0) {
+                if (!is_number(recovered_fields[i]) || strcmp(original_fields[i], recovered_fields[i]) != 0) {
                     fprintf(stderr, "Measured value changed at timestamp %" PRId64 "\n", original_timestamp);
                     return 1;
                 }

@@ -3,6 +3,7 @@
 #include <ctype.h>
 #include <errno.h>
 #include <inttypes.h>
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -65,6 +66,22 @@ static int is_blank(const char *value) {
         ++value;
     }
     return 1;
+}
+
+static int is_number(const char *value) {
+    if (is_blank(value)) return 0;
+    char *end = NULL;
+    errno = 0;
+    double parsed = strtod(value, &end);
+    return errno == 0 && end != value && *end == '\0' && isfinite(parsed);
+}
+
+static int has_ascii_control(const char *value) {
+    if (!value) return 0;
+    for (const unsigned char *p = (const unsigned char *)value; *p; ++p) {
+        if (*p < 0x20 || *p == 0x7f) return 1;
+    }
+    return 0;
 }
 
 static int64_t parse_ts(const char *value, int *ok) {
@@ -183,6 +200,18 @@ static int audit_file(const char *path, const char *out_dir) {
             continue;
         }
 
+        int control_found = 0;
+        for (int i = 0; i < ncols; ++i) {
+            if (has_ascii_control(fields[i])) {
+                control_found = 1;
+                break;
+            }
+        }
+        if (control_found) {
+            ++stats.malformed_rows;
+            fprintf(malformed, "%s,%" PRIu64 ",ascii_control_character\n", base_name(path), stats.rows + 1);
+        }
+
         if (!stats.have_ts) {
             stats.first_ts = ts;
             stats.have_ts = 1;
@@ -219,7 +248,7 @@ static int audit_file(const char *path, const char *out_dir) {
 
         int missing_count = 0;
         for (int i = 0; i < ncols; ++i) {
-            if (is_measurement_col(columns[i].name) && is_blank(fields[i])) {
+            if (is_measurement_col(columns[i].name) && !is_number(fields[i])) {
                 ++columns[i].blank_count;
                 ++missing_count;
             }
@@ -232,7 +261,7 @@ static int audit_file(const char *path, const char *out_dir) {
                     date_col >= 0 ? fields[date_col] : "", time_col >= 0 ? fields[time_col] : "");
             int emitted = 0;
             for (int i = 0; i < ncols; ++i) {
-                if (is_measurement_col(columns[i].name) && is_blank(fields[i])) {
+                if (is_measurement_col(columns[i].name) && !is_number(fields[i])) {
                     fprintf(detail, "%s%s", emitted ? ";" : "", columns[i].name);
                     emitted = 1;
                 }

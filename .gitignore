@@ -131,8 +131,16 @@ dmypy.json
 .DS_Store
 *.csv
 *.numbers
+*.zip
+*.tar
+*.tar.*
+*.gz
+*.bz2
+*.xz
+diff.txt
 
 # Compact, versioned recovery evidence is intentionally tracked.
+!/appliances.csv
 !recovery/recovery_summary.csv
 !recovery/method_inputs/*.csv
 !recovery/energy/cell_recovery_log.csv

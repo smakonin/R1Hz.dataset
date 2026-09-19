@@ -3,6 +3,7 @@
 #include <ctype.h>
 #include <errno.h>
 #include <inttypes.h>
+#include <math.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -61,6 +62,14 @@ static int is_blank(const char *value) {
     return 1;
 }
 
+static int is_number(const char *value) {
+    if (is_blank(value)) return 0;
+    char *end = NULL;
+    errno = 0;
+    double parsed = strtod(value, &end);
+    return errno == 0 && end != value && *end == '\0' && isfinite(parsed);
+}
+
 static int64_t parse_timestamp(const char *line, int *ok) {
     char *end = NULL;
     errno = 0;
@@ -103,7 +112,7 @@ static int validate_value_string(const char *values, int measurement_count) {
     int count = split_csv_simple(copy, fields, MAX_COLS);
     int valid = count == measurement_count;
     for (int i = 0; valid && i < count; ++i) {
-        if (is_blank(fields[i])) valid = 0;
+        if (!is_number(fields[i])) valid = 0;
     }
     free(copy);
     return valid;
@@ -228,7 +237,7 @@ static int write_merged_row(
             fputc('s', output);
         } else if (i >= measurement_start) {
             int measurement_index = i - measurement_start;
-            if (is_blank(target_fields[i])) {
+            if (!is_number(target_fields[i])) {
                 fputs(synthetic_fields[measurement_index], output);
                 ++(*filled_cells);
             } else {

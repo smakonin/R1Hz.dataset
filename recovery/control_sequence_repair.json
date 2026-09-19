@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "issue": "Two audited ANSI escape sequences in the original current stream",
+  "repairs": [
+    {
+      "unix_ts": 1528539825,
+      "local_datetime": "2018-06-09 03:23:45 America/Vancouver",
+      "field": "gen2",
+      "original_bytes_hex": "1b5b4f",
+      "classification": "nonnumeric missing measurement",
+      "recovered_value": "0.0",
+      "method": "aligned 364-day same-channel donor at unix_ts 1559989425"
+    },
+    {
+      "unix_ts": 1528571381,
+      "local_datetime": "2018-06-09 12:09:41 America/Vancouver",
+      "field": "time",
+      "original_value_escaped": "12:09:4\\u001b[I1",
+      "recovered_value": "12:09:41",
+      "method": "remove the injected three-byte ANSI control sequence; verify against unix_ts"
+    }
+  ],
+  "final_files": {
+    "current.csv": {
+      "bytes": 7066559792,
+      "sha256": "e7a4977130e2ad067f7e0e95f174b8736e3fcb215ac95d171e48f6efff4c0357",
+      "data_rows": 65404800,
+      "s_marked_rows": 133261,
+      "blank_or_nonnumeric_circuit_cells": 0
+    },
+    "voltage.csv": {
+      "bytes": 9549234246,
+      "sha256": "7512563edccf8cd47ac244646f2f2a15c5b9ff72e6c8bb4d8a999649d7be103a",
+      "data_rows": 65404800,
+      "s_marked_rows": 133326,
+      "blank_voltage_cells": 0
+    }
+  },
+  "validation": [
+    "expected repair sites occurred exactly once",
+    "no ASCII control bytes remain in either final file",
+    "current.csv has consecutive timestamps and only finite numeric circuit values",
+    "voltage.csv has consecutive timestamps, one decimal place, and America/Vancouver date/time coherence"
+  ]
+}

@@ -1,12 +1,12 @@
 # Residential 1 Hz Energy Dataset (R1Hz)
 
-R1Hz is a 757-day, circuit-level residential electricity dataset from one side-attached duplex in Burnaby, British Columbia, Canada. It combines four aligned 1 Hz electrical streams, derived interval-energy products, utility and in-home-display observations, outdoor climate data, and the retained Modbus, climate, and utility source records used to create the processed files.
+R1Hz is a 757-day, circuit-level residential electricity dataset from one side-attached duplex in Burnaby, British Columbia, Canada. It combines five aligned 1 Hz electrical streams, derived interval-energy products, utility and in-home-display observations, outdoor climate data, and the retained Modbus, climate, and utility source records used to create the processed files.
 
 - Dataset and canonical citation: [Harvard Dataverse, DOI 10.7910/DVN/RCB5VJ](https://doi.org/10.7910/DVN/RCB5VJ)
 - Data-descriptor manuscript: [`paper/ieeedata_descriptor.pdf`](paper/ieeedata_descriptor.pdf)
 - Code repository: <https://github.com/smakonin/R1Hz.dataset>
 
-The recovered files replace the earlier files under their canonical root-level names. They are not distributed from GitHub because the four 1 Hz CSVs alone are approximately 23.7 GiB uncompressed. GitHub contains collection, processing, recovery, validation, schema, and manuscript materials; Harvard Dataverse is the authoritative data record.
+The recovered files replace the earlier files under their canonical root-level names. They are not distributed from GitHub because the five 1 Hz CSVs alone are approximately 32.6 GiB uncompressed. GitHub contains collection, processing, recovery, validation, schema, and manuscript materials; Harvard Dataverse is the authoritative data record.
 
 ## Instrumentation and coverage
 
@@ -17,7 +17,7 @@ The recovered files replace the earlier files under their canonical root-level n
 | Circuit meter | DENT PowerScout 24; 21 physical inputs mapped to 19 logical channels |
 | Smart-meter gateway/IHD | Rainforest Automation Eagle 200 |
 | Main 1 Hz interval | 2017-09-13 through 2019-10-09 local time |
-| Main 1 Hz rows | 65,404,800 rows in each of four aligned files |
+| Main 1 Hz rows | 65,404,800 rows in each of five aligned files |
 
 The principal dataset researcher is also the homeowner and BC Hydro account holder. The researcher authorized collection and public release, so no separate property-owner or account-holder authorization was required.
 
@@ -42,6 +42,7 @@ Counts exclude the header row. Sizes are uncompressed; compressed Dataverse obje
 | `power_factor.csv` | 1 Hz | 65,404,800 rows | 2017-09-13--2019-10-09 | 7.736 GiB | Circuit power factor |
 | `power.csv` | 1 Hz | 65,404,800 rows | 2017-09-13--2019-10-09 | 4.768 GiB | Circuit real power (W) and sparse aligned IHD power |
 | `reactive.csv` | 1 Hz | 65,404,800 rows | 2017-09-13--2019-10-09 | 4.604 GiB | Circuit reactive power (var) |
+| `voltage.csv` | 1 Hz | 65,404,800 rows | 2017-09-13--2019-10-09 | 8.893 GiB | Measured circuit supply voltage (V; native 0.1 V resolution); `main` and `dryr` sum their two legs |
 | `energy_hourly.csv` | hourly | 18,168 rows | 2017-09-13--2019-10-09 | 1.457 MiB | Utility, main, and circuit energy (Wh) |
 | `energy_daily.csv` | daily | 757 rows | 2017-09-13--2019-10-09 | 81.546 KiB | Daily-labelled energy aggregates (Wh) |
 | `energy_monthly.csv` | monthly | 26 rows | 2017-09--2019-10 | 3.724 KiB | Monthly-labelled energy aggregates (Wh); edge months are partial |
@@ -51,13 +52,13 @@ Counts exclude the header row. Sizes are uncompressed; compressed Dataverse obje
 | `raw_climate/` | monthly source files | 18,984 rows / 31 files | 2017-09-01--2019-10-31 | 4.587 MiB total | 26 ECCC hourly CSVs plus station inventory, metadata, and historical helper |
 | `raw_utility/` | account exports | 30,240 rows / 2 files | 2016-06-09--2019-11-20 | 1.833 MiB total | Original BC Hydro exports with source flags |
 
-Raw-folder counts exclude `.DS_Store` and version-control placeholder files. The four large 1 Hz files may be supplied as compressed archives or as date-partitioned compressed members to remain within Harvard Dataverse's 2.5 GB per-file limit. Logical filenames, coverage, row counts, uncompressed byte counts, and checksums should be preserved in the release manifest.
+Raw-folder counts exclude `.DS_Store` and version-control placeholder files. The five large 1 Hz files may be supplied as compressed archives or as date-partitioned compressed members to remain within Harvard Dataverse's 2.5 GB per-file limit. Logical filenames, coverage, row counts, uncompressed byte counts, and checksums should be preserved in the release manifest.
 
 ## Synthetic-data marker and recovery
 
 Every recovered row has `s` in the `marker` column. An `s` means at least one value on that row is synthetic. In a daily or monthly file, it means at least one lower-grain input was synthetic. It does not imply that every cell on the row was changed.
 
-Two common 1 Hz acquisition gaps were recovered from the same channel and local clock time 364 days away. The 364-day displacement preserves weekday and clock-time alignment:
+Two common 1 Hz acquisition gaps in the original current, power-factor, real-power, and reactive-power streams were recovered from the same channel and local clock time 364 days away. The 364-day displacement preserves weekday and clock-time alignment:
 
 | Target interval (`America/Vancouver`) | Donor interval |
 |---|---|
@@ -66,13 +67,20 @@ Two common 1 Hz acquisition gaps were recovered from the same channel and local 
 
 This is deterministic pattern-based imputation, not recovery of the events that actually occurred during an outage. Thirteen additional isolated real/reactive-power seconds were estimated using local channel regression and bracketing interpolation. Hourly gaps were reconstructed from recovered 1 Hz power, native IHD means, or a month-local utility-to-main model; daily and monthly files were rebuilt from the recovered hourly product.
 
+`voltage.csv` was decoded directly from PowerScout Modbus registers 4058 (L1-neutral) and 4059 (L2-neutral), not calculated from power, current, and power factor. Single-leg circuits use the measured voltage on their actual panel leg; `main` and `dryr` each contain the sum of two measured leg-to-neutral values. The 133,261 seconds in the two long gaps use measured raw-voltage traces 364 days away, adjusted per channel by the median target-minus-donor difference in the measured hour before and after each gap. Those offsets are blended across the gap and tapered to the exact neighbouring residual over the first and last 10 minutes. Fifty-two short gaps totalling 64 seconds use linear interpolation. All estimates are quantized to the native 0.1 V resolution.
+
+At 2019-06-01 02:32:33, three missing bank-G values (`chrg`, `dwsh`, and `gen6`) use the same-second mains-bank voltage and the row is marked `s`. At 07:19:53, `main=241.0` V and `gen1=120.6` V were salvaged as measured values from a complete bank-A record embedded in a malformed raw line; those two values are not synthetic. The final voltage file has no blank voltage cells.
+
+Release validation also found two ANSI escape sequences embedded in the original `current.csv`. At Unix timestamp 1528539825, a nonnumeric `gen2` token was classified as missing and replaced by the aligned 364-day donor value `0.0`; at timestamp 1528571381, removing three control bytes restored the local time to `12:09:41`. Both recovered rows remain marked `s`, and the copied time metadata was repaired in `voltage.csv`. The exact, fail-closed repair is preserved in [`repair_1hz_control_sequences.py`](recovery/scripts/repair_1hz_control_sequences.py).
+
 | File | Rows marked `s` | Imputed cells |
 |---|---:|---:|
-| `current.csv` | 133,261 | 2,531,958 |
+| `current.csv` | 133,261 | 2,531,959 |
 | `power_factor.csv` | 133,261 | 2,531,959 |
 | `power.csv` | 133,274 | 2,532,206 |
 | `reactive.csv` | 133,274 | 2,532,206 |
-| **Four-file total** | n/a | **10,128,329 of 4,970,764,800 circuit cells (0.203758%)** |
+| `voltage.csv` | 133,326 | 2,533,178 |
+| **Five-file total** | n/a | **12,661,508 of 6,213,456,000 circuit cells (0.203776%)** |
 | `energy_hourly.csv` | 174 | 876 |
 | `energy_daily.csv` | 47 | rebuilt from hourly values |
 | `energy_monthly.csv` | 21 | rebuilt from daily values |
@@ -93,7 +101,7 @@ Synthetic intervals should normally be excluded from transient, event-timing, an
 unix_ts, bank identifier A-H, 43 integer register values for addresses 4021-4063
 ```
 
-There are eight bank rows per captured second. A complete ordinary day has 691,200 rows; partial acquisition days and daylight-saving transitions differ. These records are neither normalized nor imputed and are retained so register conversion, channel mapping, timestamp handling, and recovery can be audited.
+There are eight bank rows per captured second. A complete ordinary day has 691,200 rows; partial acquisition days and daylight-saving transitions differ. Registers 4058 and 4059 contain the two leg-to-neutral voltages with a 0.1 V scalar. These records are neither normalized nor imputed and are retained so register conversion, channel mapping, timestamp handling, and recovery can be audited.
 
 ### Climate source and licence
 
@@ -126,6 +134,7 @@ The bodies suppress direct identifiers: holder is blank, account number is a pla
 - `ihd.csv` retains 76 duplicate native timestamps, marked `d`.
 - Five climate hours have all observation fields blank; `precip_amt` is blank throughout the processed climate file, while humidex and wind chill are conditionally applicable.
 - Mixed circuits are not appliance-state ground truth, and the single monitored dwelling is not a representative household sample.
+- In `voltage.csv`, `main` and `dryr` are approximately 240 V sums of two measured legs; the other channels are approximately 120 V leg measurements. Rows marked `s` are estimates and are not outage-time supply-voltage or transient ground truth.
 
 ## Repository layout
 
