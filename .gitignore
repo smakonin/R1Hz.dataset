@@ -139,6 +139,10 @@ dmypy.json
 *.xz
 diff.txt
 
+# Private submission manuscript sources (not distributed on GitHub).
+/paper/
+/paper 2/
+
 # Compact, versioned recovery evidence is intentionally tracked.
 !/appliances.csv
 !recovery/recovery_summary.csv

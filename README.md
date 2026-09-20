@@ -3,10 +3,9 @@
 R1Hz is a 757-day, circuit-level residential electricity dataset from one side-attached duplex in Burnaby, British Columbia, Canada. It combines five aligned 1 Hz electrical streams, derived interval-energy products, utility and in-home-display observations, outdoor climate data, and the retained Modbus, climate, and utility source records used to create the processed files.
 
 - Dataset and canonical citation: [Harvard Dataverse, DOI 10.7910/DVN/RCB5VJ](https://doi.org/10.7910/DVN/RCB5VJ)
-- Data-descriptor manuscript: [`paper/ieeedata_descriptor.pdf`](paper/ieeedata_descriptor.pdf)
 - Code repository: <https://github.com/smakonin/R1Hz.dataset>
 
-The recovered files replace the earlier files under their canonical root-level names. They are not distributed from GitHub because the five 1 Hz CSVs alone are approximately 32.6 GiB uncompressed. GitHub contains collection, processing, recovery, validation, schema, and manuscript materials; Harvard Dataverse is the authoritative data record.
+The recovered files replace the earlier files under their canonical root-level names. They are not distributed from GitHub because the five 1 Hz CSVs alone are approximately 32.6 GiB uncompressed. GitHub contains collection, processing, recovery, validation, and schema materials; Harvard Dataverse is the authoritative data record.
 
 ## Instrumentation and coverage
 
@@ -28,7 +27,7 @@ main, beda, bedp, boil, chrg, cwsh, dryr, dwsh, frdg,
 gen1, gen2, gen3, gen4, gen5, gen6, kit1, kit2, outp, vacu
 ```
 
-`main` combines meter inputs 1 and 2, and `dryr` combines inputs 4 and 5. All other logical channels map to one physical input. The complete dictionary and mixed-load notes are in `appliances.csv` in the Dataverse release and in Table 4 of the manuscript.
+`main` combines meter inputs 1 and 2, and `dryr` combines inputs 4 and 5. All other logical channels map to one physical input. The complete dictionary and mixed-load notes are in `appliances.csv` in the Dataverse release.
 
 ## Canonical data files
 
@@ -146,10 +145,9 @@ The bodies suppress direct identifiers: holder is blank, account number is a pla
 | `raw_utility/` | Original BC Hydro utility exports |
 | `sql/` and `make-R1Hz.*` | Original database-oriented processing pipeline |
 | `recovery/` | Recovery code, compact method inputs, logs, and validation receipts |
-| `paper/` | IEEE Data Descriptions manuscript source and compiled PDF |
 
 ## Citation and licensing
 
 Use the dataset DOI when citing the data and record the Git commit when identifying the processing implementation. Machine-readable citation metadata are in [`CITATION.cff`](CITATION.cff).
 
-Repository source code is licensed under the MIT License. That software licence does not replace the terms applying to the Dataverse data, ECCC climate observations, manuscript, or third-party source records. See [`LICENSE`](LICENSE) and [`NOTICE.md`](NOTICE.md).
+Repository source code is licensed under the MIT License. That software licence does not replace the terms applying to the Dataverse data, ECCC climate observations, or third-party source records. The submission manuscript and publisher template materials are intentionally excluded from this repository. See [`LICENSE`](LICENSE) and [`NOTICE.md`](NOTICE.md).
